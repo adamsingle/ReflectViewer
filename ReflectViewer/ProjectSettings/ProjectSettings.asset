@@ -241,17 +241,19 @@ PlayerSettings:
   tvOSTopShelfImageLayers2x: []
   tvOSTopShelfImageWideLayers: []
   tvOSTopShelfImageWideLayers2x: []
-  iOSLaunchScreenType: 0
+  iOSLaunchScreenType: 1
   iOSLaunchScreenPortrait: {fileID: 0}
-  iOSLaunchScreenLandscape: {fileID: 0}
+  iOSLaunchScreenLandscape: {fileID: 2800000, guid: f53086e6115206e4392a3270c3c52b9f,
+    type: 3}
   iOSLaunchScreenBackgroundColor:
     serializedVersion: 2
     rgba: 0
   iOSLaunchScreenFillPct: 100
   iOSLaunchScreenSize: 100
   iOSLaunchScreenCustomXibPath: 
-  iOSLaunchScreeniPadType: 0
-  iOSLaunchScreeniPadImage: {fileID: 0}
+  iOSLaunchScreeniPadType: 1
+  iOSLaunchScreeniPadImage: {fileID: 2800000, guid: b14bc650abd9672468b046f4880625d3,
+    type: 3}
   iOSLaunchScreeniPadBackgroundColor:
     serializedVersion: 2
     rgba: 0
