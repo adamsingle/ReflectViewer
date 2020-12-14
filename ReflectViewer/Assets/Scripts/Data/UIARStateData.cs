@@ -17,6 +17,7 @@ namespace Unity.Reflect.Viewer.UI
         FloorPlacementRule = 1,
         TableTopPlacementRule = 2,
         WallPlacementRule = 3,
+        ImagePlacementRule = 4,
     }
 
     public interface IUIButtonValidator

@@ -18,7 +18,8 @@ namespace Unity.Reflect.Viewer.UI
     {
         ViewBased,
         WallBased,
-        TableTop
+        TableTop,
+        ImageBased
     }
 
     [Serializable]
