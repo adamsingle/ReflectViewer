@@ -80,8 +80,7 @@ namespace UnityEngine.Reflect.Pipeline
                     if (category.value.Contains(entry.Value) )
                     {
                         Debug.Log("Found marker in Reflect model");
-                        var position = gameObject.transform.position;
-                        //do what now??
+                        ImageTracker.Instance.MarkerOffset = gameObject;
                     }
                 }
             }
