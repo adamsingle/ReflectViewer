@@ -74,6 +74,13 @@ namespace Unity.Reflect.Viewer.UI
                 {ImageBasedInstructionUI.FindTheImage, new InstructionUIStep{stepIndex= (int)ImageBasedInstructionUI.FindTheImage, onNext = FindImageNext, onBack = FindImageBack} },
                 {ImageBasedInstructionUI.OnBoardingComplete, new InstructionUIStep {stepIndex = (int)ImageBasedInstructionUI.OnBoardingComplete, onNext = OnBoardingCompleteNext } }
             };
+
+            ImageTracker.Instance.ImageFoundEvent += ImageTracker_ImageFoundEvent;
+        }
+
+        private void ImageTracker_ImageFoundEvent()
+        {
+            Next();
         }
 
         public void Next()
